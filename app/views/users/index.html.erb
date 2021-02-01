@@ -1,0 +1,21 @@
+<% @user.each do |user| %>
+    <h2> Name :  <%= user.name %> </h2>
+    <h2> Age : <%= user.age %> </h2>
+<% end %>
+<br>
+<% @education.each do |education| %>
+    <h2> University :  <%= education.name %> </h2>
+    <h2> Degree : <%= education.degree %> </h2>
+
+<% end %>
+<br>
+<% @experience.each do |experience| %>
+    <h2> Position :  <%= experience.position %> </h2>
+    <h2> Company : <%= experience.company %> </h2>
+
+<% end %>
+<br>
+<h2>Skills</h2>
+<% @skill.each do |skill| %>
+    <h3> <%= skill.name %> </h3>
+<% end %>
