@@ -1,24 +1,10 @@
-# README
+# Resume Task
+The task was to create a Resume that includes the Education, Experience and Skills.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Approach
+The resume is created for a single User with Education, Experience and Skills as the main information
 
-Things you may want to cover:
+The model relationships one to many between User and Education, Experience and Skills.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Challenges
+Need more practice with model relationships.
